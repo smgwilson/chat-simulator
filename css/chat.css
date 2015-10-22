@@ -11,14 +11,14 @@ body{
 	overflow:auto;
 }
 
-header{
-	background-color: #D3D3D3;
+nav{
 	height: 40px;
 	text-align: justify;
 	min-width: 340px;
+	border-bottom: thin solid #a9a9a9;
 }
 
-header:after {
+nav:after {
 	content: '';
 	display: inline-block;
 	width: 100%;
@@ -29,12 +29,24 @@ div a {
 	text-decoration: none;
 }
 
-div.menu-item {
+.menu-item {
 	display: inline-block;
 	font-size: larger;
 	margin: 10px;
 }
 
+div.msg-input {
+	text-align: center;
+	position: fixed;
+	bottom: 75px;
+}
+
+input[type="text"] {
+	height: 25px;
+	width: 300px;
+	border: solid #a9a9a9 1px;
+	border-radius: 5px;
+}
 
 
 

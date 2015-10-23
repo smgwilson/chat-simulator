@@ -35,10 +35,16 @@ div a {
 	margin: 10px;
 }
 
-div.msg-input {
+div.msg-input-position {
 	text-align: center;
 	position: fixed;
 	bottom: 75px;
+}
+
+div.msg-input-position {
+	text-align: center;
+	margin: auto;
+	width: 100%;
 }
 
 input[type="text"] {

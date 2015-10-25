@@ -11,14 +11,13 @@ body{
 	overflow:auto;
 }
 
-nav{
+header{
 	height: 40px;
 	text-align: justify;
-	min-width: 340px;
 	border-bottom: thin solid #a9a9a9;
 }
 
-nav:after {
+header:after {
 	content: '';
 	display: inline-block;
 	width: 100%;
@@ -35,13 +34,13 @@ div a {
 	margin: 10px;
 }
 
-div.msg-input-position {
+.msg-input-position {
 	text-align: center;
 	position: fixed;
 	bottom: 75px;
 }
 
-div.msg-input-position {
+.msg-input-position {
 	text-align: center;
 	margin: auto;
 	width: 100%;
@@ -54,5 +53,18 @@ input[type="text"] {
 	border-radius: 5px;
 }
 
+.bubble {
+	box-sizing: border-box;
+	float: left;
+	width: auto;
+	max-width: 80%;
+	position: relative;
+	clear: both;
+	border: solid 1px blue;
+	border-radius: 10px;
+	padding: 6px 20px;
+	background-color: blue;
+	color: white;
+}
 
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
     <head lang="en">
         <title>Chat Simulation</title>
         <link rel="stylesheet" type="text/css" href="css/reset.css.css">
@@ -7,30 +8,34 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     </head>
+
     <body>
-        <div id="container">
-            <nav>
-                <div class="menu-item"><a href="#">< Messages</a></div>
-                <div class="menu-item">Chat</div>
-                <div class="menu-item"><a href="#">Details</a></div>
-            </nav>
-            <div class="contacts">
+        <article>
+            <div id="container">
+                <header>
+                    <h1 class="menu-item"><a href="#">< Messages</a></h1>
+                    <h1 class="menu-item">Chat</h1>
+                    <h1 class="menu-item"><a href="#">Details</a></h1>
+                </header>
+                <div class="contacts">
 
-            </div> <!--</contacts will be hidden for mobile devices>     -->
+                </div> <!--</contacts will be hidden for mobile devices>     -->
 
-            <main class="chat">
-                <p>Blah blah, ipsem lorem, etc</p>
-            </main>
+                <div class="chat">
+                    <p class="bubble send">Blah blah, ipsem lorem, etc</p>
+                </div>
+            </div>  <!--</container>     -->
 
-        </div>  <!--</container>     -->
-
-        <div class="msg-input-position">
-            <div class="msg-input-center">
-                <input type="radio" name="sender" value="here">Me
-                <input type="radio" name="sender" value="there">Recipient
-                <input type="text" placeholder="Message">
-            </div>
-        </div> <!--</text input>     -->
+            <form>
+                <div class="msg-input-position">
+                    <div class="msg-input-center">
+                        <input type="radio" name="sender" value="here">Me
+                        <input type="radio" name="sender" value="there">Recipient
+                        <input type="textarea" name="message" placeholder="Message">
+                    </div>
+                </div> <!--</text input>     -->
+            </form>
+        </article>
 
     </body>
 </html>

@@ -55,16 +55,24 @@ input[type="text"] {
 
 .bubble {
 	box-sizing: border-box;
-	float: left;
 	width: auto;
 	max-width: 80%;
 	position: relative;
 	clear: both;
-	border: solid 1px blue;
-	border-radius: 10px;
+	border-radius: 25px;
 	padding: 6px 20px;
-	background-color: blue;
-	color: white;
 }
 
+.send {
+	background-color: blue;
+	border: solid 1px blue;
+	color: white;
+	float: right;
+}
 
+.receive {
+	background-color: #d3d3d3;
+	border: solid 1px #d3d3d3;
+	color: black;
+	float: left;
+}
